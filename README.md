@@ -2,7 +2,7 @@
 
 Front-end has implemented by these features:
 
-* Javascipt
+* Javascript
 * Vue.js & Nuxt.js 
 * Nuxt.js Auth Module
 * JWT authentication
