@@ -14,12 +14,14 @@ and Back-end has implemented by these features:
 * Typescript
 * Node.js & Express.js
 * Postgres for DB
+* Sequelize ORM
 * One To One Relationship
 * JWT authentication
 * Access Token supported
 * Refresh Token supported
 * Linter added for Typescript files
 * Type support packages added for Typescript files
+
 
 # 
 ### How to compile ts files and run Front-end and Back-end projects?
