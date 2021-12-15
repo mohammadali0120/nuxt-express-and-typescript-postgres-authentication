@@ -16,7 +16,7 @@ export function authRouter(app: any) {
   authRouter.post("/refresh-token", postRefreshToken);
   authRouter.post("/users", isAuth, getAllUsers); // you should add isAuth for those routes that you gonna protect them
 
-  authRouter.get("/user", getUser);
+  authRouter.get("/user", isAuth, getUser);
 
   app.use("/api/auth/", authRouter);
 }
